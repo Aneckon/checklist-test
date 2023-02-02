@@ -212,8 +212,8 @@ table {
 }
 
 .css-1d1r5q-MuiFormHelperText-root.Mui-error {
-  position: absolute;
-  top: 100%;
+  position: absolute !important;
+  top: 100% !important;
 }
 
 .css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
@@ -248,24 +248,24 @@ table {
 }
 
 .css-79ws1d-MuiModal-root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .css-uxd1ve-MuiButtonGroup-root .MuiButtonGroup-grouped {
   min-width: 100px !important;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6) !important;
   border: none !important;
 }
 
 .css-uxd1ve-MuiButtonGroup-root .MuiButtonGroup-grouped:hover {
-  background: #fff1f0;
-  color: rgba(0, 0, 0, 0.6);
+  background: #fff1f0 !important;
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .css-uxd1ve-MuiButtonGroup-root{
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 svg {
